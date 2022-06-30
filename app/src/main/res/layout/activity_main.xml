@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/relativeLayout">
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/Chart"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_above="@+id/viewnone"/>
+    <ImageView
+        android:id ="@+id/viewnone"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
